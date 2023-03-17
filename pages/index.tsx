@@ -23,6 +23,8 @@ export default function Index({ data }: propsType) {
             <Link href="/home">move to 라우터 이동</Link>
             <br />
             <Link href="/dragNdrop">move to 드래그앤드롭</Link>
+            <br />
+            <Link href="/projects">프로젝트 모음 페이지</Link>
             <h2>get SSR API TEST</h2>
             <ul>
                 {datas?.map((v: any) => {

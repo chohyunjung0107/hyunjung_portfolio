@@ -125,11 +125,6 @@ function App() {
                     ))}
                 </div>
             </div>
-            <div style={{ marginTop: "30px" }}>
-                -LEFT :: {leftDivContent}
-                <br />
-                -RIGHT ::{rightDivContent}
-            </div>
         </div>
     );
 }
